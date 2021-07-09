@@ -45,7 +45,7 @@ today = mm + '/' + dd + '/' + yyyy;
                 <p>{obj.text}</p>
               </div>
               <div className="right">
-                <i className="fas fa-times"></i>
+                <i onClick className="fas fa-times"></i>
               </div>
             </div>
             )
