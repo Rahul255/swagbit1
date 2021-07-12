@@ -9,7 +9,8 @@ function App() {
   var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
   var yyyy = today.getFullYear();
 
-today = mm + '/' + dd + '/' + yyyy;
+  today = mm + '/' + dd + '/' + yyyy;
+
 
   return (
     <div className="app">
@@ -45,7 +46,8 @@ today = mm + '/' + dd + '/' + yyyy;
                 <p>{obj.text}</p>
               </div>
               <div className="right">
-                <i onClick className="fas fa-times"></i>
+              
+                <i onClick={deleteTodo} className="fas fa-times"></i>
               </div>
             </div>
             )
