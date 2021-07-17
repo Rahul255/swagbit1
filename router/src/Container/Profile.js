@@ -3,9 +3,9 @@ import One from '../Component/One'
 
 function Profile() {
     return (
-        <div>
+        <div style={{backgroundColor:"green"}}>
             <h1>My Profile </h1>
-            <One/>
+            <One />
         </div>
     )
 }

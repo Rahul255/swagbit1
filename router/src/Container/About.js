@@ -3,7 +3,7 @@ import Two from '../Component/Two';
 
 function About() {
     return (
-        <div>
+        <div style={{backgroundColor:"orange"}}>
             <h1>About Me</h1>
             <Two />
         </div>
