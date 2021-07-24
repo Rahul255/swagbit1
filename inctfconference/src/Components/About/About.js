@@ -7,30 +7,32 @@ function About() {
 
     return (
         <div className="about">
-            <div class="container">
-                <div class="section_title">
-                    <h3 class="title" >
+            <div className="container">
+            <div className="row">
+            <div className="col-md-6">
+                    <h3 className="title" >
                         What is InCTFcon
                     </h3>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
+                <div className="row">
+                    <div className="col-md-6 d-flex align-items-center">
                         <div>
                             <Fade left>
-                                <p class="para">
+                                <p className="para">
                                     InCTFCon is a global conference focused on inspiring, training, and upskilling youth in cybersecurity.
                                     InCTFCon includes keynote sessions, training, contests, and workshops. Our pre-conference National contest
                                     - InCTF has attracted over 15,000 students from nearly 150 premier institutions, including IITs and NITs,
                                     from 23 states taking part.</p>
-                                <p class="para">
+                                <p className="para">
                                     By doing this we hope to train a new generation of youngsters to be more actively engaged in the field and
                                     enter the cybersecurity workforce.</p>
                             </Fade>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex align-items-center ">
-                        <div class="col-md-12 ">
+                    <div className="col-md-6 d-flex align-items-center ">
+                        <div className="col-md-12 ">
                             <Fade right>
                                 <img draggable="false" src={image} alt="INCTF participant" />
                             </Fade>
