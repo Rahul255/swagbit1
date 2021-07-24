@@ -1,0 +1,28 @@
+.about{
+    background-color: rgb(233, 222, 222);
+    width: auto;
+    height: auto;
+    top: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.p{
+    font-size: 16px;
+    color: black;
+}
+.span{
+    color: #F50057;
+}
+
+.para{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+    color: black;
+    padding-top: 30px;
+}
+
+.title{
+    padding-top: 40px;
+}
