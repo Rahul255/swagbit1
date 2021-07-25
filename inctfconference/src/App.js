@@ -1,19 +1,21 @@
 
 import './App.css';
-import NavBar from './Components/NavBar/NavBar';
-import Banner from './Components/Banner/Banner';
-import About from './Components/About/About';
-import Footer from './Components/Footer/Footer';
-import Goals from './Components/Goal/Goals'
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from './Pages/Home';
+import About from './Pages/AboutUs';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />  
-      <Banner />
-      <About />
-      <Goals />
-      <Footer />
+      <Router>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route path='/about'>
+          <About />
+        </Route>
+      </Router>
     </div>
   );
 }

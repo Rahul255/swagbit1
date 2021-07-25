@@ -3,6 +3,7 @@ import './Footer.css'
 import logo from '../../images/logomain.png';
 
 function Footer() {
+   
     return (
         <div className="footer">
             <div className="container">
