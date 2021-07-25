@@ -10,7 +10,7 @@ function About() {
             <div className="container">
             <div className="row">
             <div className="col-md-6">
-                    <h3 className="title" >
+                    <h3 className="title_about" >
                         What is InCTFcon
                     </h3>
                 </div>

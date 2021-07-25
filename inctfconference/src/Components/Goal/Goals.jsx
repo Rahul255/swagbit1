@@ -69,7 +69,7 @@ const EventGoals = () => {
         require('../../images/unsdg/sdg11.png').default,
     ]
 
-    return <GoalsContainer>
+    return (<GoalsContainer>
         <div className="container" style={{ maxWidth: '1333px' }}>
             <h2>Goals</h2>
             <ScrollContainer vertical={false} className="scroll-container py-2">
@@ -112,7 +112,8 @@ const EventGoals = () => {
                 </ScrollContainer>
             </div>
         </div>
-    </GoalsContainer>;
+    </GoalsContainer>
+    );
 
 };
 
