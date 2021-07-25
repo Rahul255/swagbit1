@@ -34,7 +34,7 @@ function About() {
                     <div className="col-md-6 d-flex align-items-center ">
                         <div className="col-md-12 ">
                             <Fade right>
-                                <img draggable="false" src={image} alt="INCTF participant" />
+                                <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={image} alt="INCTF participant" />
                             </Fade>
                         </div>
                     </div>
