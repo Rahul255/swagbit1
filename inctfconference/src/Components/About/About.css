@@ -22,7 +22,10 @@
 }
 
 .title_about{
-    padding-top: 40px;
-    font-size: 3rem;
-    font-weight: 900;
+        font-size: calc(1.5rem + 2vw);
+        text-align: center;
+        color: #F50057;
+        font-weight: 600;
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
 }

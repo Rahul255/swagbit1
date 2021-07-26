@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import image from '../../images/cyber.png'
+import image from '../../images/desktop.png'
 import Fade from 'react-reveal/Fade';
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
         <div className="about">
             <div className="container">
             <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-12">
                     <h3 className="title_about" >
                         What is InCTFcon
                     </h3>

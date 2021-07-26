@@ -4,6 +4,7 @@ import Banner from '../Components/Banner/Banner'
 import About from '../Components/About/About'
 import Goals from '../Components/Goal/Goals'
 import Footer from '../Components/Footer/Footer'
+import EndProgram from '../Components/EndProgram/EndProgram'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <NavBar />  
             <Banner />
             <About />
+            <EndProgram />
             <Goals />
             <Footer />
         </div>

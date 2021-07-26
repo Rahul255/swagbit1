@@ -45,19 +45,19 @@ const EventGoals = () => {
     const goals = [
         {
             "cover": require('../../images/covers/women_cut_barriers.jpg').default,
-            "text": "Create a comfortable space & platform to encourage women to women communication and shared learning",
+            "text": "Industry needs skilled professionals for securing the Digital world",
         },
         {
             "cover": require('../../images/covers/women_dark_bg.jpg').default,
-            "text": "Promote cybersecurity, and the role of the next generation of women and girls in making the world a safer place"
+            "text": "CyberSecurity as a profession is one where demand is outstripping supply"
         },
         {
             "cover": require('../../images/covers/women_flag.jpg').default,
-            "text": "Train and upskill women in cybersecurity using CTF as the entry-point."
+            "text": "There will be triple the number of job openings over the next 5 years, with over 3.5 million new cybersecurity job openings in 2022."
         },
         {
             "cover": require('../../images/covers/women_connections.jpg').default,
-            "text": "Facilitate mentorship, learning, personal growth, career growth, and community amongst the women participants"
+            "text": "We need to high skilled professionals to protect the globe from the cyber pandemic"
         }
     ];
 
@@ -71,7 +71,7 @@ const EventGoals = () => {
 
     return (<GoalsContainer>
         <div className="container" style={{ maxWidth: '1333px' }}>
-            <h2>Goals</h2>
+            <h2>Why InCFTCon</h2>
             <ScrollContainer vertical={false} className="scroll-container py-2">
                 <div className="d-flex p-3">
                     {goals.map((g, index) =>
@@ -84,33 +84,6 @@ const EventGoals = () => {
                     )}
                 </div>
             </ScrollContainer>
-            <div className="text-light text-center py-2 py-md-4">
-                <div
-                    style={{ fontSize: 'calc(0.8rem + 0.35vw)' }}
-                    className="mb-0"
-                >
-                    Amrita Vishwa Vidyapeetham through ShaktiCon proudly supports
-                </div>
-                <img
-                    src={require('../../images/unsdg/logo.png').default}
-                    className="mb-0" style={{ maxHeight: '160px', maxWidth: '100%' }}
-                    alt="ShaktiCon & Amrita takes pride in supporting the UN Sustainable Development Goals"
-                />
-                <ScrollContainer vertical={false} className="scroll-container py-2">
-                    <div className="d-flex justify-content-center p-2">
-                        {UNSDGGoals.map((g) =>
-                            <GoalCard className="px-2" style={{ minWidth: '200px', width: '180px' }}>
-                                <img
-                                    draggable="false"
-                                    style={{ maxWidth: '100%', borderRadius: '10px' }}
-                                    src={g}
-                                    alt="UN SDG Goal"
-                                />
-                            </GoalCard>
-                        )}
-                    </div>
-                </ScrollContainer>
-            </div>
         </div>
     </GoalsContainer>
     );
