@@ -7,11 +7,12 @@ import Footer from '../Components/Footer/Footer'
 import EndProgram from '../Components/EndProgram/EndProgram'
 import Sponsor from '../Components/Sponsor/Sponsor'
 import Organizers from '../Components/Organizers/Organizers'
+import Topbar from '../Components/Bars/Topbar'
 
 function Home() {
     return (
         <div>
-            <NavBar />  
+            <Topbar />  
             <Banner />
             <About />
             <EndProgram />
