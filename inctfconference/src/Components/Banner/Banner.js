@@ -6,8 +6,8 @@ function Banner() {
     return (
         <div className="banner">
             <div className="content">
-                <Slide left><div className="title">Cybersecurity Hacking Contest</div></Slide>
-                <Slide right><div className="paragraph">This is a national level hacking contest organized by team bi0s</div></Slide>
+                <Slide left><div className="title_banner">Cybersecurity <br/>Hacking Contest</div></Slide>
+                <Slide right><div className="paragraph">This is a national level hacking contest <br/> organized by team bi0s</div></Slide>
                 <div className="buttons">
                     <Slide left><button className="button">Login Now</button></Slide>
                     <Slide right><button className="button">Register Now</button></Slide>
